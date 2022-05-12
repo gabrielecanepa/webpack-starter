@@ -1,13 +1,11 @@
 {
   "root": true,
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "sourceType": "module",
-    "allowImportExportEverywhere": true
+    "requireConfigFile": false
   },
   "env": {
     "browser": true,
-    "commonjs": true,
     "es6": true
   },
   "settings": {

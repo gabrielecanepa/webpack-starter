@@ -9,6 +9,11 @@ module.exports = {
   devServer: {
     open: true,
   },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',

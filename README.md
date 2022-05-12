@@ -1,12 +1,12 @@
 # Webpack Starter
 
-Webpack starter using the following:
+Ready-to-use webpack starter including:
 
-- [Yarn](https://yarnpkg.com)
 - [webpack](https://webpack.js.org)
 - [Babel](https://babeljs.io) with [the latest preset](https://babeljs.io/docs/en/babel-preset-env)
 - [ESLint](https://eslint.org)
 - [Sass](http://sass-lang.com) with [stylelint](https://stylelint.io) and hot reloading
+- [HtmlWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin)
 
 ## Usage
 
