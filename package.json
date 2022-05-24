@@ -1,17 +1,17 @@
 {
   "name": "webpack-starter",
   "version": "1.0.0",
-  "description": "Simple boilerplate including Yarn, webpack, Babel, ESLint, Sass, and different loaders and linters.",
+  "description": "Simple boilerplate including Yarn, webpack, Babel, ESLint, Sass, and other useful loaders and linters.",
   "main": "index.js",
   "repository": "https://github.com/gabrielecanepa/webpack-starter",
   "author": "Gabriele Canepa <hey@gabrielecanepa.com>",
   "license": "MIT",
   "scripts": {
+    "setup": "/bin/bash ./.bin/install",
     "start": "webpack-dev-server",
     "dev": "webpack-dev-server --mode development",
-    "setup": "/bin/bash ./.bin/install",
-    "build": "webpack -p --bail",
-    "lint": "eslint ./src/**/*.js* && stylelint ./assets/stylesheets/**/*.*css"
+    "build": "webpack build --mode production",
+    "lint": "eslint \"./src/**/*{.mjs,.js,.jsx}\" && stylelint \"./src/**/*.{css,scss,sass}\""
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",

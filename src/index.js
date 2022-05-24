@@ -1,5 +1,5 @@
 import '@/assets/styles/main.scss'
 
-document.body.innerHTML = `
-  <code>Your application is up and running! 📦✨👌</code>
-`
+const app = document.getElementById('app')
+
+app.innerHTML = '<code>Your application is up and running! 📦✨👌</code>'

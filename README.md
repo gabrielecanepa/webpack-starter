@@ -8,6 +8,8 @@ Ready-to-use webpack starter including:
 - [Sass](http://sass-lang.com) with [stylelint](https://stylelint.io) and hot reloading
 - [HtmlWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin)
 
+And other useful loaders and linters.
+
 ## Usage
 
 Clone the repository to your computer. You must have [Node.js](https://nodejs.org) (> v4) and [Yarn](https://yarnpkg.com/lang/en/docs/install) installed:
@@ -30,8 +32,8 @@ To start a local server on port `8080`:
 
 ```bash
 yarn start
-# or
-yarn dev # development mode
+# or in development mode
+yarn dev
 ```
 
 To lint all your JavaScript and CSS/SCSS files:
