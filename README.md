@@ -3,10 +3,10 @@
 Ready-to-use webpack starter including:
 
 - [webpack](https://webpack.js.org)
-- [Babel](https://babeljs.io) with [the latest preset](https://babeljs.io/docs/en/babel-preset-env)
+- [Babel](https://babeljs.io) with the latest preset
 - [ESLint](https://eslint.org)
 - [Sass](http://sass-lang.com) with [stylelint](https://stylelint.io) and hot reloading
-- [HtmlWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin)
+- Auto-loaded `.env` file
 
 And other useful loaders and linters.
 

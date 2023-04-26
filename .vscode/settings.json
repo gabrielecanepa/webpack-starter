@@ -6,6 +6,8 @@
   },
   "eslint.format.enable": true,
   "eslint.packageManager": "yarn",
-  "eslint.validate": ["javascript"],
+  "eslint.validate": [
+    "javascript"
+  ],
   "typescript.validate.enable": false
 }
