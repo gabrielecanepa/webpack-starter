@@ -16,7 +16,8 @@ Clone the repository to your computer. You must have [Node.js](https://nodejs.or
 
 ```bash
 git clone git@github.com:gabrielecanepa/webpack-starter.git my-project
-# or `gh repo clone gabrielecanepa/webpack-starter my-project`
+# or
+gh repo clone gabrielecanepa/webpack-starter my-project
 
 cd my-project
 
@@ -36,7 +37,7 @@ yarn start
 yarn dev
 ```
 
-To lint all your JavaScript and CSS/SCSS files:
+To lint all your JavaScript and CSS and SCSS files:
 
 ```bash
 yarn lint
