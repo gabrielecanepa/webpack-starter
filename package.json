@@ -4,7 +4,7 @@
   "description": "Pre-configured starter including webpack, ESLint, Sass, Stylelint and other useful loaders and linters",
   "main": "index.js",
   "repository": "https://github.com/gabrielecanepa/webpack-starter",
-  "author": "Gabriele Canepa <mail@gabrielecanepa.com>",
+  "author": "Gabriele Canepa <contact@gabrielecanepa.com>",
   "license": "MIT",
   "scripts": {
     "setup": "yarn init && yarn upgrade --latest && touch .env",
